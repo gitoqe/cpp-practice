@@ -12,6 +12,6 @@ int power(int number, int exponent) {
 
 int main() {
     // 3. Функция, возвращающая заданную степень числа (только положительные).
-    std::cout << power(7, 1);
+    std::cout << power(7, 3) << std::endl;
     return 0;
 }
