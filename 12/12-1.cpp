@@ -1,7 +1,6 @@
 #include <iostream>
 
-bool isEven(int number)
-{
+bool isEven(int number) {
     if (number % 2 == 0)
     {
         std::cout << "even\n";
@@ -14,8 +13,7 @@ bool isEven(int number)
     }
 }
 
-int main()
-{
+int main() {
     // Функция, возвращающая и выводящая в консоль логический ответ "четно ли переданное число".
     isEven(7);
     return 0;
